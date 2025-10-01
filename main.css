@@ -109,4 +109,25 @@ form button:hover {
 
 input:focus, textarea:focus {
     outline-color: #182C61;
+
+}
+
+/* No seu arquivo main.css */
+
+/* Define um tamanho fixo para todos os ícones de redes sociais */
+.social-links img {
+    width: 32px; /* Escolha um tamanho, por exemplo, 32 pixels de largura */
+    height: 32px; /* Mantenha a mesma altura para que fiquem quadrados */
+}
+
+/* Opcional: Para alinhar a lista horizontalmente e remover as bolinhas */
+.social-links {
+    list-style: none; /* Remove os marcadores de lista */
+    display: flex; /* Coloca os itens lado a lado */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin-top: 20px; /* Adiciona algum espaço acima, se necessário */
+}
+
+.social-links li {
+    margin-right: 10px; /* Espaçamento entre os ícones */
 }
